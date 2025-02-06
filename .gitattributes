@@ -1,0 +1,13 @@
+# Set default behavior, in case users don't have core.autocrlf set.
+* text=auto
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+node_modules/string.prototype.includes/.github/workflows/publish-on-tag.yml text eol=lf
