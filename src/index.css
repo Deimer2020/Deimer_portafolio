@@ -8265,7 +8265,7 @@ textarea.form-control-lg {
   height: 300px; /* Asegúrate de que sea igual al ancho para mantener la forma circular */
   object-fit: cover; /* Hace que la imagen se ajuste correctamente dentro del contenedor */
   margin: 20px 0 20px 0;
-  border: 5px solid #1E90FF; /* Borde azul */
+  border: 2px solid #00008B; /* Borde azul */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
         transition: transform 0.3s ease; /* Transición para el efecto de transformación */
 }
@@ -8273,9 +8273,16 @@ textarea.form-control-lg {
   transform: scale(1.1); /* Efecto de zoom al pasar el mouse por encima */
 }
 
+.nombre{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0%;
 
+}
+.container-foto{
+  margin-top: -50px;
 
-
+}
 
 
 .text-black-50 {

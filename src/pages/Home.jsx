@@ -19,11 +19,13 @@ export default function Home(){
                             <div className="text-center text-xxl-start">
                                 <div className="badge bg-gradient-primary-to-secondary text-white mb-4"><div className="text-uppercase"> &middot;  &middot;Desarrollador &middot;  &middot;</div></div>
                                 <div className="fs-3 fw-light text-muted">`La disciplina tarde o temprano vencera el talento`</div>
-                                <h1 className="display-3 fw-bolder mb-5"><span className="text-gradient d-inline">INGENIERO DE SISTEMAS</span></h1>
+                                <h1 className="display-3 fw-bolder mb-5"><span className="text-gradient d-inline">INGENIERO DE SISTEMAS</span>
+                                <p  className="nombre"> DEIMER JOSE ARIAS MONSALVE</p></h1>
                                 {/* imagen */}
-                                <img src={imagen} alt="Foto de portada" className="foto" 
-                                  
-                                 />
+                                <div className="container-foto">
+                                <img src={imagen} alt="Foto de portada" className="foto"/>
+                                </div>
+                                
                                {/*  botones */}
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                    <Link to="/resumen" className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder">Resume</Link>
@@ -52,7 +54,7 @@ Soy una persona altamente comprometida y proactiva, con la capacidad de abordar 
                                 
                                     <Link className="text-gradient" target="_blank" to="https://www.linkedin.com/in/deimer-arias-monsalve-370b1a230/" ><i className="bi bi-linkedin"></i></Link>
                                     <Link className="text-gradient" target="_blank" to="https://github.com/Deimer2020" ><i className="bi bi-github"></i></Link>
-                                  
+                                    <Link className="text-gradient" target="_blank" to="" ><i className="bi bi-facebook"></i></Link>
                                 </div>
                             </div>
                         </div>
