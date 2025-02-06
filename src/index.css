@@ -3576,8 +3576,8 @@ textarea.form-control-lg {
 }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 0.50rem;
+  padding-left: 0.50rem;
 }
 
 .btn-group-vertical {
@@ -8240,8 +8240,43 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
+  font-family: 'Roboto', sans-serif;
   color: #6c757d !important;
+  font-weight: bold;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px;
+  animation: fadeIn 2s ease-in-out;
 }
+@keyframes fadein{
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+
+/* imagen>>> */
+.foto {
+  border-radius: 50%;
+  width: 300px; /* Ajusta este valor según el tamaño deseado */
+  height: 300px; /* Asegúrate de que sea igual al ancho para mantener la forma circular */
+  object-fit: cover; /* Hace que la imagen se ajuste correctamente dentro del contenedor */
+  margin: 20px 0 20px 0;
+  border: 5px solid #1E90FF; /* Borde azul */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+        transition: transform 0.3s ease; /* Transición para el efecto de transformación */
+}
+.foto:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse por encima */
+}
+
+
+
+
+
 
 .text-black-50 {
   --bs-text-opacity: 1;
