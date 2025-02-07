@@ -76,89 +76,52 @@ export default function Resumen(){
                                 </div>
                             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                           {/*  <div className="card shadow border-0 rounded-4 mb-5">
-                                <div className="card-body p-5">
-                                    <div className="row align-items-center gx-5">
-                                        <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div className="bg-light p-4 rounded-4">
-                                                <div className="text-primary fw-bolder mb-2">2023 - 2024</div>
-                                                <div className="small fw-bolder">FORMULACION DE PROYECTOS</div>
-                                                <div className="small text-muted"></div>
-                                                <div className="small text-muted">Valledupar-Cesar</div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-lg-8"><div className="laboral"> Preste mis servicios profesionales en el Resguardo
- Indígena Kankuamo, formulé proyectos para
- poblaciones vulnerables, evalué su viabilidad y
- sostenibilidad, analicé el impacto ambiental y
- documenté el progreso y resultado de los mismos. </div></div>
-                                    </div>
-                                </div>
-                            </div> */}
                         </section>
                        
                         <section>
                             <h2 className="text-secondary fw-bolder mb-4">Educacion</h2>
+                            <div className="card shadow border-0 rounded-4 mb-5  " >
+                                <div className="card-body p-5 " >
+                                    <div className="row align-items-center gx-5">
+                                        <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div className="bg-light p-4 rounded-4 " >
+                                                <div className="text-primary fw-bolder mb-2 laboral">2008 - 2013</div>
+                                                <div className="small fw-bolder laboral">INSTITUCION EDUCATIVA SAN ISIDRO LABRADOR</div>
+                                                <div className="small text-muted">ATANQUEZ</div>
+                                            </div>
+                                        </div>
+                                        <div className="contenedor">
+                                            <div className="imagen-fondo2"></div>
+                                       
+                                        </div>
+                                        <div className="laboral">Realice mis estudios en la zona norte de Valledupar, en el corregimiento de Atanquez, en los cuales hice toda mi secundaria de 6 grado  a 11 undecimo, agradecido por aprender todo ese conocimiento que con amor y pasion me enseñaron </div>
+                                     
+                                    </div>
+                                </div>
+                            </div>
                            
-                            <div className="card shadow border-0 rounded-4 mb-5">
-                                <div className="card-body p-5">
+                            <h2 className="text-secondary fw-bolder mb-4">Educacion Profesional</h2>
+                           
+                             <div className="card shadow border-0 rounded-4 mb-5  " >
+                                <div className="card-body p-5 " >
                                     <div className="row align-items-center gx-5">
                                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div className="bg-light p-4 rounded-4">
-                                                <div className="text-secondary fw-bolder mb-2">2015 - 2017</div>
-                                                <div className="mb-2">
-                                                    <div className="small fw-bolder">Barnett College</div>
-                                                    <div className="small text-muted">Fairfield, NY</div>
-                                                </div>
-                                                <div className="fst-italic">
-                                                    <div className="small text-muted">Master s</div>
-                                                    <div className="small text-muted">Web Development</div>
-                                                </div>
+                                            <div className="bg-light p-4 rounded-4 " >
+                                                <div className="text-primary fw-bolder mb-2 laboral">2015 - 2021</div>
+                                                <div className="small fw-bolder laboral">UNIVERSIDAD POPULAR DEL CESAR(UPC)</div>
+                                                <div className="small text-muted">Valledupar-Cesar</div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div className="card shadow border-0 rounded-4 mb-5">
-                                <div className="card-body p-5">
-                                    <div className="row align-items-center gx-5">
-                                        <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div className="bg-light p-4 rounded-4">
-                                                <div className="text-secondary fw-bolder mb-2">2011 - 2015</div>
-                                                <div className="mb-2">
-                                                    <div className="small fw-bolder">ULA</div>
-                                                    <div className="small text-muted">Los Angeles, CA</div>
-                                                </div>
-                                                <div className="fst-italic">
-                                                    <div className="small text-muted">Undergraduate</div>
-                                                    <div className="small text-muted">Computer Science</div>
-                                                </div>
-                                            </div>
+                                        <div className="contenedor">
+                                            <div className="imagen-fondo3"></div>
+                                       
                                         </div>
-                                        <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        
+                                        <div className="laboral">Finalicé mis estudios profesionales en la Universidad Popular del Cesar, en el programa de Ingeniería de Sistemas. Estoy profundamente agradecido por la formación recibida, la cual me ha permitido convertirme en un profesional competente y preparado para los desafíos del ámbito laboral.</div>
+                                     
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </section>
                         
                         <div className="pb-5"></div>
@@ -175,12 +138,13 @@ export default function Resumen(){
                                         </div>
                                         <div className="row row-cols-1 row-cols-md-3 mb-4">
                                          
-                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
+                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Desarrollo de Software</div></div>
                                         </div>
                                         <div className="row row-cols-1 row-cols-md-3">
-                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network Security</div></div>
-                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe Software Suite</div></div>
-                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Interface Design</div></div>
+                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Gestion de Base de Datos</div></div>
+                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Trabajo en equipo</div></div>
+                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100"> Adaptacion a entornos dinámicos y desafiantes</div></div>
+                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Resolver problemas de manera creativa </div></div>
                                         </div>
                                     </div>
                                    
