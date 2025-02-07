@@ -8,17 +8,6 @@ export default function Nav(){
                 {" "}
                 <span className="fw-bolder text-primary">Menu</span>
               </Link>
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
               <div
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
@@ -26,26 +15,26 @@ export default function Nav(){
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                   <li className="nav-item">
                     {" "}
-                    <Link className="nav-link" to="/">
-                      Home
+                    <Link className="nav-link enlace" to="/">
+                    <i className="fas fa-home"></i> Home
                     </Link>{" "}
                   </li>
                   <li className="nav-item">
                     {" "}
-                    <Link className="nav-link" to="/resumen">
-                      Resumen
+                    <Link className="nav-link enlace" to="/resumen">
+                    <i className="fas fa-file-alt"></i> Resumen
                     </Link>
                   </li>
                   <li className="nav-item">
                     {" "}
-                    <Link className="nav-link" to="/proyecto">
-                      Proyectos
+                    <Link className="nav-link enlace" to="/proyecto">
+                    <i className="fas fa-briefcase"></i> Proyectos
                     </Link>
                   </li>
                   <li className="nav-item">
                     {" "}
-                    <Link className="nav-link" to="/contacto">
-                      Contacto
+                    <Link className="nav-link enlace" to="/contacto">
+                    <i className="fas fa-envelope"></i> Contacto
                     </Link>
                   </li>
                 </ul>

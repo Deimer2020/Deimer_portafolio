@@ -19,45 +19,100 @@ export default function Resumen(){
                        
                         <section>
                             <div className="d-flex align-items-center justify-content-between mb-4">
-                                <h2 className="text-primary fw-bolder mb-0">Experiencia</h2>
+                                <h2 className="text-primary fw-bolder mb-0">Experiencia Laboral</h2>
                                 
-                                <a className="btn btn-primary px-4 py-3" href="#!">
+                              {/*   <a className="btn btn-primary px-4 py-3" href="#!">
                                     <div className="d-inline-block bi bi-download me-2"></div>
                                     Descargar Resumen
-                                </a>
+                                </a> */}
                             </div>
                             
-                            <div className="card shadow border-0 rounded-4 mb-5">
-                                <div className="card-body p-5">
+                            <div className="card shadow border-0 rounded-4 mb-5  " >
+                                <div className="card-body p-5 " >
                                     <div className="row align-items-center gx-5">
                                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div className="bg-light p-4 rounded-4">
-                                                <div className="text-primary fw-bolder mb-2">2019 - Present</div>
-                                                <div className="small fw-bolder">Web Developer</div>
-                                                <div className="small text-muted">Stark Industries</div>
-                                                <div className="small text-muted">Los Angeles, CA</div>
+                                            <div className="bg-light p-4 rounded-4 " >
+                                                <div className="text-primary fw-bolder mb-2 laboral">2021 - 2023</div>
+                                                <div className="small fw-bolder laboral">DESARROLLADOR DE SOFTWARE</div>
+                                                <div className="small text-muted">Valledupar-cesar</div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        <div className="contenedor">
+                                            <div className="imagen-fondo"></div>
+                                       
+                                        </div>
+                                        <div className="laboral">Análisis, diseño y desarrollo de software, pruebas
+ funcionales, participación en representación del
+ semillero en eventos de investigación y apoyo a
+ proyectos desarrollados por el grupo de
+ investigación AITICE. </div>
+                                     
                                     </div>
                                 </div>
                             </div>
                            
-                            <div className="card shadow border-0 rounded-4 mb-5">
+
+                            <div className="card shadow border-0 rounded-4 mb-5  " >
+                                <div className="card-body p-5 " >
+                                    <div className="row align-items-center gx-5">
+                                        <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div className="bg-light p-4 rounded-4 " >
+                                                <div className="text-primary fw-bolder mb-2 laboral">2023 - 2024</div>
+                                                <div className="small fw-bolder laboral">FORMULACION DE PROYECTOS</div>
+                                                <div className="small text-muted">Valledupar-cesar</div>
+                                            </div>
+                                        </div>
+                                        <div className="contenedor">
+                                            <div className="imagen-fondo1"></div>
+                                       
+                                        </div>
+                                        <div className="laboral">Preste mis servicios profesionales en el Resguardo
+ Indígena Kankuamo, formulé proyectos para
+ poblaciones vulnerables, evalué su viabilidad y
+ sostenibilidad, analicé el impacto ambiental y
+ documenté el progreso y resultado de los mismos </div>
+                                     
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           {/*  <div className="card shadow border-0 rounded-4 mb-5">
                                 <div className="card-body p-5">
                                     <div className="row align-items-center gx-5">
                                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div className="bg-light p-4 rounded-4">
-                                                <div className="text-primary fw-bolder mb-2">2017 - 2019</div>
-                                                <div className="small fw-bolder">SEM Specialist</div>
-                                                <div className="small text-muted">Wayne Enterprises</div>
-                                                <div className="small text-muted">Gotham City, NY</div>
+                                                <div className="text-primary fw-bolder mb-2">2023 - 2024</div>
+                                                <div className="small fw-bolder">FORMULACION DE PROYECTOS</div>
+                                                <div className="small text-muted"></div>
+                                                <div className="small text-muted">Valledupar-Cesar</div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+
+                                        <div className="col-lg-8"><div className="laboral"> Preste mis servicios profesionales en el Resguardo
+ Indígena Kankuamo, formulé proyectos para
+ poblaciones vulnerables, evalué su viabilidad y
+ sostenibilidad, analicé el impacto ambiental y
+ documenté el progreso y resultado de los mismos. </div></div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </section>
                        
                         <section>
