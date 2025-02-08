@@ -8406,6 +8406,75 @@ textarea.form-control-lg {
 
 
 
+.image-container {
+  display: flex;
+  gap: 20px; /* Espacio entre las imágenes */
+  margin-left: 40px;
+}
+
+.animated-image {
+  width: 300px; /* Ajusta el tamaño según tus necesidades */
+  height: 300px; /* Ajusta el tamaño según tus necesidades */
+
+  border: 5px solid #04414d; /* Borde con color */
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transición */
+  margin-right: 60px;
+  border-radius: 10%;
+}
+
+.animated-image:hover {
+  transform: scale(1.1); /* Efecto de zoom */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Añadir sombra */
+  transform: rotate(10deg); /* Rotación al pasar el mouse */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
