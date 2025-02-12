@@ -47,7 +47,10 @@ export default function Proyecto(){
                                         <div className="p-5">
                                            
                                             <p className="laboral">Creacion de una plataforma MOOC para que los docentes de la Universidad Popular del Cesar puedan crear y publicar cursos para estimular el aprendizaje autónomo y permanente en los estudiantes y egresados de la Universidad Popular del Cesar.</p>
-                                    <Link target="u_blank" to={"https://mooc.aulacla.com/"}>Plataforma Mooc Mastery</Link> 
+                                   
+                                    <div className="link-container">
+                                    <Link target="u_blank" to={"https://mooc.aulacla.com/"} className="fancy-link">Plataforma Mooc Mastery</Link> 
+                                    </div>
                                         </div>
                                       
                                     </div>
